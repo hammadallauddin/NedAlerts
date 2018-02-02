@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_weight="13"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:id="@+id/my_toolbar"
+        android:layout_weight="1"
+        android:background="?colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        app:title="CGPA CALCULATOR"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/text"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="20.0dip"
+            android:text="1st Semester "
+            android:paddingLeft="5dp"
+            android:textColor="@color/main"
+            android:typeface="serif"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_weight="1"
+            android:textColor="@color/main"
+            android:ellipsize="end"
+            android:id="@+id/ec21"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:hint="GPA"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:layout_weight="1"
+            android:textColor="@color/main"
+            android:ellipsize="end"
+            android:id="@+id/sc21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cdt Hrs"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="20.0dip"
+            android:textColor="@color/main"
+            android:typeface="serif"
+            android:layout_width="wrap_content"
+            android:text="2nd Semester"
+            android:paddingLeft="5dp"
+            android:layout_below="@+id/textView4"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_weight="1"
+            android:textColor="@color/main"
+            android:ellipsize="end"
+            android:id="@+id/ec22"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:hint="GPA"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:layout_weight="1"
+            android:textColor="@color/main"
+            android:ellipsize="end"
+            android:id="@+id/sc22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cdt Hrs"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="20.0dip"
+            android:textColor="@color/main"
+            android:typeface="serif"
+            android:layout_width="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="3rd Semester"
+            android:layout_below="@+id/textView4"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_weight="1"
+            android:textColor="@color/main"
+            android:ellipsize="end"
+            android:id="@+id/ec23"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:hint="GPA"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:layout_weight="1"
+            android:textColor="@color/main"
+            android:ellipsize="end"
+            android:id="@+id/sc23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cdt Hrs"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/bc21"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tc21"
+        android:layout_alignStart="@+id/tc21"
+        android:layout_gravity="center"
+        android:layout_below="@+id/scrollView"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="Calculate"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tc21"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bc21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/main"
+        android:textSize="30.0dip"
+        android:typeface="serif" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>

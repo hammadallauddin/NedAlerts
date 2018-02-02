@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NED Alerts</string>
+    <string name="title_activity_visit_web">VisitWeb</string>
+    <string name="title_activity_map">Map</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="banner_home_footer">ca-app-pub-5691018423026928/6776225493</string>
+</resources>
